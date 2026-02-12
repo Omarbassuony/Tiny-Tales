@@ -63,7 +63,7 @@ const Index = () => {
       <Navbar />
 
       {/* Page Header */}
-      <div className="relative w-full h-[250px] bg-gray-50 overflow-hidden flex items-center justify-center">
+      <div className="relative w-full h-[180px] md:h-[250px] bg-gray-50 overflow-hidden flex items-center justify-center">
 
         {/* Background Pattern */}
         <img
@@ -73,13 +73,15 @@ const Index = () => {
         />
 
         {/* Shadow Text */}
-        <h1 className="absolute text-[80px] font-bold text-transparent select-none pointer-events-none"
-          style={{ WebkitTextStroke: '2px #E5E7EB' }}>
+        <h1 
+          className="absolute text-[40px] sm:text-[60px] md:text-[80px] font-bold text-transparent select-none pointer-events-none whitespace-nowrap uppercase tracking-wider"
+          style={{ WebkitTextStroke: '1px #E5E7EB' }}
+        >
           Product Details
         </h1>
 
         {/* Main Title */}
-        <h2 className="relative text-3xl font-semibold text-foreground">
+        <h2 className="relative text-2xl md:text-3xl font-semibold text-foreground">
           Product Details
         </h2>
 
