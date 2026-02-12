@@ -10,7 +10,7 @@
 ## 📦 Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Omarbassuony/Tiny-Tales.git
 cd project-name
 npm install
 npm run dev
